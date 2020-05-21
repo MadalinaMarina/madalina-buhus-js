@@ -8,13 +8,19 @@
 
     <script>
       var object = {
-        name: 'Dragos', 
-        surname: 'Iordache', 
-        age: 32
+        name: 'Dragos',
+        surname: 'Iordache',
+        age: 31,
+        petOwner: false,
+        carOwner: false
       };
 
       console.log(object);
       console.log(object.name);
+      console.log('Ma numesc ' + object.name + ' ' + object.surname + ' si am ' + object.age + ' ani.');
+      console.log(Math.floor(2020 - (object.age / 2)));
+      console.log(object.name + ' ' + object.surname + ' are ' + object.age + ' ani.');
+      console.log(2020 - object.age);
     </script>
   </body>
 </html>
