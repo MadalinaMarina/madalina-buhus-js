@@ -95,8 +95,7 @@ console.log('Done.');
 console.warn('Calculeaza si salveaza in variabila difference diferenta de ani dintre persoana si animalul de pe pozitia 0. Foloseste anul curent. ');
 var difference = YearOfBirth(person.pets[0].age) - person.birthYear;
 var diff = OneOrMore(difference);
-console.log(`Diferenta de varsta dintre ${person.firstName} si ${petName} este de ${difference} ${diff}`
-);
+console.log(`Diferenta de varsta dintre ${person.firstName} si ${petName} este de ${difference} ${diff}`);
 
 
 // ex 12
