@@ -7,10 +7,7 @@ function OneOrMore (number) {
 
 
 function ageDifference (pet1, pet2) {
-  if(pet1 >= pet2)
-    return pet1 - pet2;
-  else
-    return pet2 - pet1;
+  return Math.abs(pet1 - pet2);
 }
 
 
