@@ -120,7 +120,7 @@ console.log(firstProp);
 console.warn('Calculeaza si afiseaza diferenta de varsta dintre animalul de pe pozitia 0 si cel de pe pozitia 2 ');
 
 var ageDiff = ageDifference(person.pets[0].age, person.pets[2].age);
-var secondProp = 'Diferenta de varsta dintre cele doua animale este de ' + ageDiff + ' ' + OneOrMore(ageDiff);
+var secondProp = 'Diferenta de varsta dintre '+ person.pets[0].species + ' si ' + person.pets[2].species + ' este de ' + ageDiff + ' ' + OneOrMore(ageDiff);
 
 document.getElementById('prop02').innerHTML = secondProp;
 console.log(secondProp);
