@@ -1,8 +1,8 @@
 function OneOrMore (number) {
   if (number == 1)
-  return 'an.';
-else
-  return 'de ani.';
+    return 'an.';
+  else
+    return 'de ani.';
 }
 
 
@@ -164,7 +164,7 @@ for(var i=0; i<array.length-1; i++) {
 
 var display = 'Ordinea crescatoare in functie de numarul de caractere ale numelor este: ';
 for(var i=0; i<array.length; i++) {
-  display = display + array[i] + ' ';
+  display = display + array[i] + '  ';
 }
 
 document.getElementById('prop05').innerHTML = display;
