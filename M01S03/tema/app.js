@@ -1,3 +1,5 @@
+/*
+
 function OneOrMore (number) {
   if (number == 1)
     return 'an.';
@@ -23,7 +25,7 @@ function YearOfBirth (age) {
  3.Proprietatea pets sa contina un array de obiecte cu trei pozitii. 
  4.Obiectele din pets sa contina urmatoarele proprietati: name, species, age. 
  5.Toata informatia poate fi inventata. Nu divulga informatii personale inutil.
-*/
+
 
 var person = {
   firstName: 'Jessica',
@@ -167,3 +169,10 @@ document.getElementById('prop05').innerHTML = display;
 
 console.log(display);
 
+*/
+
+
+var text = [ 'jder', 'copil', 'mancare'];
+for (var i = 0; i < text.length; i++) {
+  console.log(text[i][0]);
+}
