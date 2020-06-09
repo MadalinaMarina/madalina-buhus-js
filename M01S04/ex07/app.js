@@ -64,3 +64,31 @@ for (i = 0; i < arrayLength; i++) {
 
   console.log(`${friend.name} ${friend.surname}`);
 }
+
+
+//------------Tema----------------
+
+// ex 7, subpunctul 4
+console.warn('Folosind o bucla for afiseaza proprietatea name a tuturor obiectelor din arrayul friends.');
+
+for (i = 0; i < arrayLength; i++) {
+  console.log(friends[i].name);
+}
+
+// ex 7, subpunctul 5
+console.warn('Afiseaza numele complet al tuturor prietenilor.');
+
+for (i = 0; i < arrayLength; i++) {
+  console.log(friends[i].name + ' ' + friends[i].surname);
+}
+
+// ex 7, subpunctul 6
+console.warn('Folosind keywordul break, afiseaza numele complet al prietenilor dar opeste bucla la primul surname care are numarul de caractere mai mare sau egal decat 9.');
+
+for (i = 0; i < arrayLength; i++) {
+  if(friends[i].surname.length >= 9){
+    break;
+  } else {
+    console.log(friends[i].name + ' ' + friends[i].surname);
+  }
+}
