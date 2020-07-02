@@ -1,27 +1,19 @@
-.frame {
-  width: 200px;
-  height: 200px;
-  border: 1px solid #000;
-  position: absolute; 
-}
-
 .car {
-  position: absolute; 
-  bottom: 70px;
-  left: 10px;
+  position: relative;
+  background-color: #000;
 }
 
 .car__body {
   width: 180px;
   height: 45px;
-  background-color: #000;
+  background-color: inherit;
   position: absolute;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
 .car__top {
-  background-color: #000;
+  background-color: inherit;
   width: 130px;
   height: 45px;
   position: absolute;
@@ -32,7 +24,7 @@
 }
 
 .car__wheel {
-  position: absolute; 
+  position: absolute;
   bottom: -20px;
 }
 
@@ -50,7 +42,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #000;
+  background-color: inherit;
   border-radius: 25px;
   border: 1px solid #FFF;
 }
@@ -64,10 +56,10 @@
 }
 
 .light {
-  position: absolute; 
+  position: absolute;
   width: 15px;
-  height: 15px; 
-  background-color: #FFF; 
+  height: 15px;
+  background-color: #FFF;
   border-radius: 10px;
 }
 
@@ -81,4 +73,17 @@
 
 .light--back.light--on {
   background-color: #F00;
+}
+
+.frame {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  position: absolute;
+}
+
+.frame__car {
+  position: absolute;
+  bottom: 70px;
+  left: 10px;
 }
