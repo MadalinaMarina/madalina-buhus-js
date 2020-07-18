@@ -42,7 +42,21 @@ class Shape {
 }
 
 class Rectangle extends Shape {
-  
+  constructor(
+    posX,
+    posY, 
+    width, 
+    height, 
+    color, 
+    borderColor
+  ) {
+    this.posX = posX; 
+    this.posY = posY; 
+    this.height = height; 
+    this.width = width; 
+    this.color = color; 
+    this.borderColor = borderColor;
+  }
 }
 
 class Circle extends Shape {

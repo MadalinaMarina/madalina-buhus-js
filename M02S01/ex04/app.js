@@ -1,3 +1,24 @@
+const firstToggle = document.querySelector('.firstToggle-button');
+
+firstToggle.addEventListener('click', () => {
+  firstToggle.classList.toggle('active');
+});
+
+const secondToggle = document.querySelector('.secondToggle-button');
+
+secondToggle.addEventListener('click', () => {
+  secondToggle.classList.toggle('active');
+});
+
+$("#firstToggle-button").on('change', function() {
+  if ($(this).attr('checked')) {
+  $(this).val('true');
+  }
+ else {
+  $(this).val('false');
+}});
+
+
 class Car {
   constructor(
     left = 100,
@@ -107,5 +128,5 @@ class Car {
   }
 }
 
-let car = new Car(10, 20, 'black', 'red');
+let car = new Car(450, 40, 'black', 'red');
 car.render();
