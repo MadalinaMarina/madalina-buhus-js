@@ -8,10 +8,10 @@ $('<p>', {
 })
   .appendTo($('body'))
   .addClass('error')
-  .prepend();
+  .prepend('<sup>1</sup>');
 
-let errorNumber = 1;
-let supElement = $(`<sup>${errorNumber}</sup>`).prependTo('.error');
+// let errorNumber = 1;
+// let supElement = $(`<sup>${errorNumber}</sup>`).prependTo('.error');
 
 // $('<p class="err">Documentatia jQuery se afla <span>aici</span>.</p>').appendTo(
 //   $('body'),
