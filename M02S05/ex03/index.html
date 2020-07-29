@@ -7,19 +7,18 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
-  <title>jQuery Lightbox</title>
+  <title>Vanilla Lightbox</title>
 
   <link
     rel="stylesheet"
-    href="node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css"
+    href="node_modules/tobii/dist/css/tobii.css"
   >
 </head>
 
 <body>
   <a
     href="images/large/image01.jpg"
-    data-fancybox="gallery"
-    data-caption="I am caption"
+    class="lightbox"
   >
     <img
       src="images/thumbnails/image01.jpg"
@@ -29,8 +28,7 @@
 
   <a
     href="images/large/image02.jpg"
-    data-fancybox="gallery"
-    data-caption="I am caption"
+    class="lightbox"
   >
     <img
       src="images/thumbnails/image02.jpg"
@@ -40,8 +38,7 @@
 
   <a
     href="images/large/image03.jpg"
-    data-fancybox="gallery"
-    data-caption="I am caption"
+    class="lightbox"
   >
     <img
       src="images/thumbnails/image03.jpg"
@@ -51,8 +48,7 @@
 
   <a
     href="images/large/image04.jpg"
-    class="extra-cat"
-    data-fancybox="extra"
+    class="lightbox"
   >
     <img
       src="images/thumbnails/image04.jpg"
@@ -62,8 +58,7 @@
 
   <a
     href="images/large/image05.jpg"
-    class="extra-cat"
-    data-fancybox="extra"
+    class="lightbox"
   >
     <img
       src="images/thumbnails/image05.jpg"
@@ -71,10 +66,7 @@
     >
   </a>
 
-
-
-  <script src="node_modules/jquery/dist/jquery.js"></script>
-  <script src="node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js"></script>
+  <script src="node_modules/tobii/dist/js/tobii.js"></script>
   <script src="app.js"></script>
 </body>
 
